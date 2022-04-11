@@ -5,16 +5,35 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap" rel="stylesheet"> 
+        <link 
+        href="https://fonts.googleapis.com/css2?family=Monda:wght@700&family=Orbitron:wght@500&family=Rubik+Microbe&display=swap" 
+        rel="stylesheet"> 
     </head>
     <body>
-        <h1>Welcome to Rock Paper Scissors</h1>
+        <h1>Ultimate Rock Paper Scissors</h1>
 
-        <form>
-            <input type="text" id="userInput" placeholder="rock, paper, scissors"><br />
-            <button>PLAY!</button>
-        </form>
-        <section>
+        <section id="scoreboard">
+            <div class="player">
+                <h4>YOUR SCORE</h4>
+                <div class="score" id="player-score">
+                    0
+                </div>
+            <div class="comp">
+                <h4>OPPONENT SCORE</h4>
+                <div class="score" id="pc-score">
+                    0
+                </div>
+            </div>
+            
+            </div>
+        </section>
+        <section id="icons">
+            <img id="rockIcon" src="https://goodday451999.github.io/Rock-Paper-Scissors-Neo/images/stone.png">
+            <img id="paperIcon" src="https://pmaity7.github.io/rock-paper-scissors/images/paper.png">
+            <img id="scissorIcon" src="https://icon-library.com/images/spock-icon/spock-icon-5.jpg">
+        </section>
+        </section>
+        <section id="results"> 
             <p></p>
         </section>
             <script src="main.js"></script>
