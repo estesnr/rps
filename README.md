@@ -5,5 +5,5 @@
     Game is live
     
 4/11/2022: Update 1
-    Changed text input into clickable icons
-    added a running scoreboard
+    Changed text input into clickable icons <br />
+    Added a running scoreboard
