@@ -1,7 +1,7 @@
 # rps
  A simple Rock, Paper, Scissors game
 
-4/9/2022:
+4/8/2022:
     Game is live
     
 4/11/2022: Update 1
