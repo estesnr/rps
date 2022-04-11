@@ -6,7 +6,8 @@
     
 4/11/2022: Update 1
     Changed text input into clickable icons <br />
-    Added a running scoreboard
+    Added a running scoreboard <br />
+    Made game more mobile friendly
 
 To Do List: <br />
 
