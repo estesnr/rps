@@ -63,3 +63,9 @@ img {
 img:hover {
     border: 5px green solid;
 }
+
+@media screen and (max-width: 400px) {
+    img {
+        height: 80px;
+    }
+}
